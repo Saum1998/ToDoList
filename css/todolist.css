@@ -1,0 +1,133 @@
+*
+{
+    margin:0;
+    padding:0;
+    outline:none;
+    border:none;
+    box-sizing:border-box;
+    
+}
+body
+{
+    background: url("../images/background-beverage-breakfast-414645.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+   
+}
+.wrapper
+{
+    border:5px solid black;
+    height:800px;
+    width:600px;
+    margin:50px auto;
+    border-radius:50px;
+    overflow:hidden;
+    
+    
+}
+.header
+{
+    width:100%;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:darkgoldenrod;
+    display:block;
+    opacity:0.6;
+    
+}
+span
+{
+    font-family: 'Rock Salt', cursive;
+    display:block;
+    width:100%;
+    border-bottom: dashed 5px black;
+    font-weight:900;
+}
+
+#haha
+{   
+    padding-right:0.3em;
+}
+.wrap-list
+{
+    width:100%;
+    border-radius:0 0 10px 10px;
+    
+}
+li
+{
+    font-family: 'Hanalei Fill', cursive;
+    list-style-type: none;
+    font-size:35px;
+    margin-bottom: 25px;
+    width:100%;
+    float:left;
+    color:black;
+}
+.bg1
+{
+    background-color:#a67c00;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg2
+{
+    background-color:#bf9b30;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg3
+{
+    background-color:#ffbf00;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg4
+{
+    background-color:#ffcf40;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg5
+{
+    background-color:#ffdc73;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg6
+{
+    background-color:#ffbf00;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg7
+{
+    background-color:#bf9b30;
+    overflow:hidden;
+    padding-left:55px;
+}
+.bg8
+{
+    background-color:#a67c00;
+    overflow:hidden;
+    padding-left:55px;
+}
+label
+{
+    float:left;
+    width:85%;
+}
+input[type="checkbox"]:checked + label
+{
+    text-decoration: line-through;
+    color:rgba(0,0,0,0.8);
+}
+input[type="checkbox"]
+{
+    position:relative;
+    top:10px;
+    float: right;
+    margin-right: 25px;
+    font-size:200px;
+}
